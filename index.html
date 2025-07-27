@@ -1,10 +1,30 @@
 <!DOCTYPE html>
-<html>
-<head>
+<html lang="en">
+  <head>
     <meta charset="UTF-8" />
-    <title>title</title>
-</head>
-<body>
-    
-</body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="gameboard">
+      <div class="gameboard__computer">
+        <p class="gameboard__computer-selection" id="computer-selection"></p>
+      </div>
+      <div class="gameboard__dialog" id="gameboard-dialog">
+        <p class="gameboard__para" id="gameboard-para">
+          Rock, paper, or scissors?
+        </p>
+      </div>
+      <div class="gameboard__user">
+        <p class="gameboard__user-selection" id="user-selection"></p>
+        <div class="gameboard__btn-wrapper">
+          <button value="Rock">Rock</button>
+          <button value="Paper">Paper</button>
+          <button value="Scissors">Scissors</button>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
 </html>
